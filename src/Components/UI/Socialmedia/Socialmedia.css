@@ -1,0 +1,25 @@
+.cont-social-media{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.social{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    text-align: center;
+    margin: 0rem 1rem;
+    font-size: 10px;
+}
+
+.social img{
+    max-width: 50px ;
+}
+
+.social:hover{
+    color: aqua;
+    transition: all 0.5s ease
+}

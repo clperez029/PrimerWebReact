@@ -1,0 +1,14 @@
+.contHeader{
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+@media (max-width: 768px){
+    .contHeader{
+        flex-direction: column;
+        margin: 1rem;
+    }
+}

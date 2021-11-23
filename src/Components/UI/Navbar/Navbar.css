@@ -1,0 +1,39 @@
+.navbarMenu{
+    margin-left: 1rem;
+    display: flex;
+    background-color: rgba(165, 42, 42, 0);
+    color: white;
+    list-style: none;
+}
+
+.navbarMenu li {
+    margin: 0px 0.2rem;
+    background-color: #30336b;
+    padding: 1rem 1rem;
+    list-style: none;
+    color: white;
+    border-radius: 10px;
+}
+
+.navbarMenu li:hover{
+    background-color: rgb(48, 17, 105);
+    transition: all 0.5s ease;
+    color: black;
+}
+
+
+.navbarMenu li a{
+    text-decoration: none;
+    color: white;
+}
+
+@media (max-width: 768px){
+    .navbarMenu{
+        margin: 1rem 0rem;
+    }
+    
+    .navbarMenu li {
+        padding: 1rem 0.4rem;
+    }
+
+}
